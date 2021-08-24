@@ -1,0 +1,293 @@
+/* Import Google Font CDN link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    margin: 0 auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Menu */
+nav{
+    position: fixed;
+    width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    margin: 0 auto;
+    padding: 20px 0px;
+    transition: all 0.8s ease;
+}
+
+nav.sticky{
+    padding: 13px 0;
+    background: #222;
+}
+
+nav .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+nav .navbar .logo a{
+    font-size: 32px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ff4545;
+}
+
+nav.sticky .navbar .logo a, nav.sticky .navbar .menu li a, nav.sticky .navbar .icons a{
+    color: #f1f1f1;
+}
+
+nav .navbar .menu{
+    display: flex;
+}
+
+nav .navbar .menu li{
+    margin: 0 10px;
+    list-style: none;    
+}
+
+.navbar .menu li a{
+    font-size: 21px;
+    font-size: 500;
+    text-decoration: none;
+    color: #f1f1f1;
+    transition: all 0.5s ease;
+}
+
+
+.navbar .menu li a:hover{
+    color: #ff4545;
+}
+nav.sticky .navbar .menu li a:hover{
+    color: #ff4545;
+}
+
+nav .sidebar-button, nav .cancel-button{
+    display: none;
+}
+
+nav .navbar .icons a{
+    font-size:22px;
+    color: #f1f1f1;
+    padding: 0 10px;
+}
+
+nav .navbar .icons a:hover{
+    color: #ff4545;
+}
+
+/* Home */
+.home{
+    background: url(../images/bg3.jpg) no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Ubuntu", sans-serif;
+    color:#f1f1f1;
+}
+
+.home .home-content{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home .home-content .text-one{
+    font-size: 47px;
+    font-weight: 600;
+}
+
+.home .home-content .text-two{
+    font-size: 25px;
+    padding-top: 30px;
+    margin: 30px 15px;
+}
+
+.home .hire-button{
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+.home .hire-button button{
+    outline:none;
+    font-size:23px;
+    font-weight: 500;
+    padding: 8px 16px;
+    background:#111;
+    border: 2px solid #ff4545;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+}
+.home .hire-button button a{
+    color:#fff;
+    text-decoration:none;
+}
+
+.home .hire-button button:hover{
+    background:#ff4545;
+    border-color: #111;
+}
+
+.home .hire-button button a:hover{
+    color:#f1f1f1;
+}
+
+/* Responsive Sidebar button configs*/
+nav .sidebar-button, .navbar .cancel-button{
+    position:absolute;
+    color:#fff;
+    font-size: 22px;
+    right: 30px;
+    top: 20px;
+}
+
+nav .sidebar-button{
+    color:#fff;
+}
+
+nav.sticky .sidebar-button{
+    color:#fff;
+}
+
+nav.sticky .navbay .menu li a:hover{
+    color:#ff4545;
+}
+
+/* Responsive */
+@media (max-width: 1190px){
+
+    .about .about-content{
+        width: 85%;
+    }
+
+    .projects .projects-content{
+        width: 85%;
+    }
+}
+
+@media (max-width: 1090px){
+
+    .about .about-details{
+        flex-direction:column;
+    }
+
+    .about .about-details .about-left-content{
+        width:100%;
+        display:flex;
+        justify-content:center;
+    }
+
+    .about .about-details .about-right-content{
+        width:90%;
+        margin:40px 0;
+    }
+
+    .projects .projects-details{
+        flex-direction:column;
+    }
+
+    .projects .projects-details .projects-left-content{
+        width:100%;
+        display:flex;
+        justify-content:center;
+    }
+
+    .projects .projects-details .projects-right-content{
+        width:90%;
+        margin:40px 0;
+    }
+}
+
+@media (max-width: 970px){
+    
+    .about .about-details .about-left-content img{
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 12px;
+        margin-bottom: 50px;
+    }
+
+    .projects .projects-details .projects-left-content iframe{
+        height: 180px;
+        width:300px;
+    }
+}
+
+@media (max-width: 825px){
+
+    body{
+        overflow-x: hidden;
+    }
+    
+    /* Menu */
+    nav .navbar .menu{
+        position: absolute;
+        left: -115%;
+        top: -24px;
+        height:100vh;
+        max-width: 400px;
+        width:100%;
+        background-color: #111;
+        flex-direction:column;
+        align-items: center;
+        padding-top: 60px;
+        transition: all 0.5s ease;
+    }
+
+    nav .sidebar-button, nav .cancel-button{
+        display: inline;
+    }
+
+    nav .navbar.active .menu{
+        left: -60px;
+    }
+
+    .navbar .menu li a{
+        color: #ff4545;
+        display: block;
+        font-size: 31px;
+        margin: 35px 0;
+    }
+    nav .navbar .icons a{
+        display: none;
+    }
+
+    /* Home */
+    .home .home-content .text-one{
+        font-size: 41px;
+    }
+    .home .home-content .text-two{
+        font-size: 21px;
+    }
+
+    /* Skills */
+    .skills-content{
+        height:1200px;
+    }
+    
+
+    /* Contact */
+    .contact .topic{
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        margin-left:0px;
+    }
+
+    .contact .contact-btn{
+        width: 100%;
+        margin:20px 0;
+    }
+}
