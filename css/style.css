@@ -9,7 +9,21 @@ html{
     scroll-behavior: smooth;
 }
 
+
 /* Menu */
+
+.scroll-button i{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    padding: 10px 12px;
+    background:#ff4545;
+    color: #fff;
+    font-size:20px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
 nav{
     position: fixed;
     width: 100%;
