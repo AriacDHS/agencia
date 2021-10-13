@@ -17,8 +17,8 @@ html{
     bottom:20px;
     right:20px;
     padding: 10px 12px;
-    background:#ff4545;
-    color: #fff;
+    background:#ff9900;
+    color: #000;
     font-size:20px;
     border-radius: 6px;
     box-shadow: 0 5px 10px rgba(0,0,0,0.15);
@@ -50,7 +50,7 @@ nav .navbar .logo a{
     font-size: 32px;
     font-weight: 500;
     text-decoration: none;
-    color: #fff;
+    color: #ff9900;
 }
 
 nav.sticky .navbar .logo a, nav.sticky .navbar .menu li a, nav.sticky .navbar .icons a{
@@ -76,10 +76,10 @@ nav .navbar .menu li{
 
 
 .navbar .menu li a:hover{
-    color: #ff4545;
+    color: #ff9900;
 }
 nav.sticky .navbar .menu li a:hover{
-    color: #ff4545;
+    color: #ff9900;
 }
 
 nav .sidebar-button, nav .cancel-button{
@@ -93,12 +93,12 @@ nav .navbar .icons a{
 }
 
 nav .navbar .icons a:hover{
-    color: #ff4545;
+    color: #ff9900;
 }
 
 /* Home */
 .home{
-    background: url(../images/bg3.jpg) no-repeat;
+    background: url(../images/bg4.jpg) no-repeat;
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -139,7 +139,7 @@ nav .navbar .icons a:hover{
     font-weight: 500;
     padding: 8px 16px;
     background:#111;
-    border: 2px solid #ff4545;
+    border: 2px solid #ff9900;
     border-radius: 8px;
     transition: all 0.4s ease;
 }
@@ -149,12 +149,12 @@ nav .navbar .icons a:hover{
 }
 
 .home .hire-button button:hover{
-    background:#ff4545;
+    background:#ff9900;
     border-color: #111;
 }
 
 .home .hire-button button a:hover{
-    color:#f1f1f1;
+    color:#111;
 }
 
 /* About */
@@ -178,7 +178,7 @@ nav .navbar .icons a:hover{
     margin-bottom:60px;
     font-size: 30px;
     font-weight: 600;
-    color:#fff;
+    color:#ff9900;
     text-decoration: underline 2px;
     text-underline-position: under;
 }
@@ -195,7 +195,7 @@ nav .navbar .icons a:hover{
 
 .about .about-details .about-right-content img{
     height: 400px;
-    width: 400px;
+    width: 450px;
     object-fit: cover;
     border-radius: 12px;
     margin-bottom: 50px;
@@ -209,7 +209,7 @@ nav .navbar .icons a:hover{
 .about-details .about-left-content .topic{
     font-size: 27px;
     font-weight: 500;
-    color:#fff;
+    color:#ff9900;
     padding-bottom: 40px;
 }
 
@@ -227,7 +227,7 @@ nav .navbar .icons a:hover{
     font-weight: 500;
     padding: 8px 16px;
     background:#111;
-    border: 2px solid #ff4545;
+    border: 2px solid #ff9900;
     border-radius: 8px;
     transition: all 0.4s ease;
 }
@@ -238,12 +238,12 @@ nav .navbar .icons a:hover{
 }
 
 .about-left-content .cv-button button:hover{
-    background:#ff4545;
+    background:#ff9900;
     border-color: #111;
 }
 
 .about-left-content .cv-button button a:hover{
-    color:#f1f1f1;
+    color:#111;
 }
 
 
@@ -266,7 +266,7 @@ nav .navbar .icons a:hover{
     justify-content: center;
     padding-top:20px;
     margin-bottom:60px;
-    color:#fff;
+    color:#ff9900;
     font-size: 30px;
     font-weight: 600;
 }
@@ -274,7 +274,7 @@ nav .navbar .icons a:hover{
 .box{
     width: 250px;
     display:inline-block;
-    border: 2px solid #ff4545;
+    border: 2px solid #ff9900;
     background:#191919;
     color:#fff;
     padding:20px;
@@ -291,7 +291,7 @@ nav .navbar .icons a:hover{
 
 .box i{
     font-size:36px;
-    color:#ff4545;
+    color:#ff9900;
 }
 
 /* Projects */
@@ -315,7 +315,7 @@ nav .navbar .icons a:hover{
     margin-bottom:60px;
     font-size: 30px;
     font-weight: 600;
-    color:#fff;
+    color:#ff9900;
     text-decoration: underline 2px;
     text-underline-position: under;
 }
@@ -354,7 +354,7 @@ nav .navbar .icons a:hover{
     font-weight: 500;
     padding: 8px 16px;
     background:#111;
-    border: 2px solid #ff4545;
+    border: 2px solid #ff9900;
     border-radius: 4px;
     transition: all 0.4s ease;
 }
@@ -365,12 +365,12 @@ nav .navbar .icons a:hover{
 }
 
 .projects-right-content .hire-button button:hover{
-    background:#ff4545;
+    background:#ff9900;
     border-color: #111;
 }
 
 .projects-right-content .hire-button button a:hover{
-    color:#fff;
+    color:#111;
 }
 
 /* Contact */
@@ -398,7 +398,7 @@ nav .navbar .icons a:hover{
     margin-bottom:60px;
     font-size: 30px;
     font-weight: 600;
-    color:#fff;
+    color:#ff9900;
     text-decoration: underline 2px;
     text-underline-position: under;
 }
@@ -417,14 +417,14 @@ nav .navbar .icons a:hover{
     font-weight: 500;
     padding: 8px 16px;
     background:#111;
-    border: 1px solid #ff4545;
+    border: 1px solid #ff9900;
     border-radius: 10px;
     transition: all 0.4s ease;
 }
 
 .contact .contact-btn i{
     font-size: 36px;
-    color:#ff4545;
+    color:#ff9900;
 }
 
 /* Footer */
@@ -456,7 +456,7 @@ nav.sticky .sidebar-button{
 }
 
 nav.sticky .navbay .menu li a:hover{
-    color:#ff4545;
+    color:#ff9900;
 }
 
 /* Responsive */
@@ -543,7 +543,7 @@ nav.sticky .navbay .menu li a:hover{
     }
 
     .navbar .menu li a{
-        color: #ff4545;
+        color: #ff9900;
         display: block;
         font-size: 31px;
         margin: 35px 0;
